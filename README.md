@@ -8,7 +8,7 @@ originally built to aid in the search and download of annual from 20 universitie
 Installation and use
 --------------------
 
-###Download
+### Download
 
 Most users will probably find it easiest to download a python distribution that 
 includes Jupyter notebooks. [Anaconda](https://www.anaconda.com/download/) is a popular 
@@ -21,7 +21,7 @@ form of a September 2017 data dump. You can replace this with the most up to dat
 data from [the GRID website - https://grid.ac/downloads](https://grid.ac/downloads).
 You only need the JSON file `grid.json` from that archive.
 
-###Preparation
+### Preparation
 
 The notebook will need a file containing a list of 
 universities that you want to analyse. An example is provided as the file 
@@ -41,7 +41,7 @@ ultimately get a key, which needs to be added at the top of the file
 
 `subscriptionKey = "subscriptionKey" <---change the second bit with your key that looks like 87dg7654has237`
 
-###Opening and use
+### Opening and use
 
 Use Anaconda (or your preferred Jupyter approach) to open a Jupyter notebook server.
 Navigate to the downloaded folder in the Jupyter browser and open the 
@@ -53,7 +53,7 @@ definitely change the filename for the output files. You *must* execute each cel
 either by clicking in it and selecting `run` from the toolbar, or by typing 
 `SHIFT-Enter` while the cursor is in the cell.
 
-###Search term setup
+### Search term setup
 
 There are a range of options here and the full set of Bing advanced search operators 
 should be available. A particularly useful option is filetype:pdf for pdf documents. 
@@ -77,7 +77,7 @@ sensible results. These options include:
 * {wikipedia_url} - university's wikipedia URL
 * {established} - the date of the university's founding
 
-###The search widget
+### The search widget
 
 This is the main part of the notebook. When you execute this cell a window should 
 appear with search results for your first university. There may be up to 5 results 
@@ -98,7 +98,7 @@ Once you have run through a set of universities you can change the search term
 running the cell which activates it. You can do this as many times as you like and 
 the results should always be written to the output file for later inspection. 
 
-###Downloading files
+### Downloading files
 
 The search widget does not download files. The cell at the bottom of the notebook
 will work through the output file and download all the target files that have been
